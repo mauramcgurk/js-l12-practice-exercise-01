@@ -30,6 +30,10 @@ const displayUsers = function (userResults) {
     } 
 };
 
+selectUserNumber.addEventListener("change", function (e) {
+    const numUsers = e.target.value;
+})
+
 
 
 
